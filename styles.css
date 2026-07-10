@@ -84,6 +84,11 @@ body {
   margin-top: 0.5rem;
 }
 
+.card-title:hover, .card-title:focus, .card-title:active {
+  color: var(--accent);
+  cursor: pointer;
+}
+
 .card-description {
   font-size: clamp(0.875rem, 2.5vw, 1rem);
   font-weight: 400;
