@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add your solution URL here](https://jucroizer.github.io/blog_preview_card_project/)
+- Solution URL: [Solution URL here](https://jucroizer.github.io/blog_preview_card_project/)
 
 ## My process
 
