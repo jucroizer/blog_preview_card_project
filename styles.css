@@ -19,7 +19,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 24px;
 }
 
 .page {
@@ -57,14 +56,12 @@ body {
 .card-content {
   display: flex;
   flex-direction: column;
-  gap: 12px;
   width: 100%;
 }
 
 .card-tag {
   font-size: clamp(0.75rem, 2.5vw, 0.875rem);
   font-weight: 700;
-  /* text-transform: uppercase; */
   color: var(--text);
   background: var(--bg);
   width: fit-content;
@@ -83,7 +80,8 @@ body {
   font-size: clamp(1.25rem, 2.5vw, 1.5rem);
   font-weight: 700;
   color: var(--text);
-  margin: 0;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
 }
 
 .card-description {
@@ -91,4 +89,18 @@ body {
   font-weight: 400;
   color: var(--gray);
   margin: 0;
+  line-height: 150%;
+}
+
+.card-author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.card-author-name {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--text);
 }
